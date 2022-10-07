@@ -14,5 +14,5 @@ const colors = {
 export const theme = extendTheme({ colors,components: {
     Button,
     Input,
-    Text,
+    Text
 } })

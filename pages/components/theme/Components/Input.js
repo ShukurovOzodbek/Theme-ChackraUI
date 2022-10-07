@@ -1,13 +1,16 @@
 export const Input = {
     baseStyle: {
-        fontSize: '12px',
-        padding: "10px",
-        color: 'green',
-        backgroundColor: 'red !important',
-        _hover: {
-            backgroundColor: 'black !important'
+        field: {
+            fontSize: '12px',
+            padding: "10px",
+            color: 'green',
+            backgroundColor: 'green !important',
+            _hover: {
+                backgroundColor: 'black !important'
+            }
         }
-    }, size: {
+    },
+    size: {
         sx: {
             width: '120px !important',
             fontSize: '24px'
@@ -15,12 +18,14 @@ export const Input = {
     },
     variants: {
         standart: {
-            fontSize: '12px',
-            padding: "10px",
-            color: 'green',
-            backgroundColor: 'red !important',
-            _hover: {
-                backgroundColor: 'black !important'
+            field: {
+                fontSize: '12px',
+                padding: "10px",
+                color: 'green',
+                backgroundColor: 'green !important',
+                _hover: {
+                    backgroundColor: 'black !important'
+                }
             }
         },
         outlined: {

@@ -18,7 +18,7 @@ export default function Home() {
         <Button variant={'outlined'} size={'sx'}>
           hha
         </Button>
-        <Input placeholder={'hello'} variant={'outlined'}/>
+        <Input placeholder={'hello'} />
       </Box>
     </div>
   )
